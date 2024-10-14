@@ -2,74 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planetary Fact Sheet</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th></th>
-      <th>Mercury</th>
-      <th>Earth</th>
-      <th>Mars</th>
-      <th>Jupiter</th>
-    </tr>
-    <tr>
-      <td>Images of Mercury,Earth,Mars,and Jupiter</td>
-      <td><img src="images/mercury.png" alt="Image shows the plant Mercury"></td>
-      <td><img src="images/earth.png" alt="Image shows the plant earth"></td>
-      <td><img src="images/mars.png" alt="Image shows the plant mars"></td>
-      <td><img src="images/jupiter.png" alt="Image shows the plant jupiter"></td>
-    </tr>
-    <tr>
-      <td>Fact #1</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #2</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #3</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #4</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #5</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #6</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #7</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-  </table>
+  <header>
+    <h1>Planetary Fact Sheet</h1>
+  </header>
+
+  <section>
+    <table id="planets">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Mercury</th>
+          <th>Earth</th>
+          <th>Mars</th>
+          <th>Jupiter</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Images</td>
+          <td><img src="images/mercury.png" alt="Image of Mercury"></td>
+          <td><img src="images/earth.png" alt="Image of Earth"></td>
+          <td><img src="images/mars.png" alt="Image of Mars"></td>
+          <td><img src="images/jupiter.png" alt="Image of Jupiter"></td>
+        </tr>
+        <tr>
+          <td>Mass (10^24 kg)</td>
+          <td>0.33</td>
+          <td>5.97</td>
+          <td>0.64</td>
+          <td>1898</td>
+        </tr>
+        <tr>
+          <td>Diameter (km)</td>
+          <td>4879</td>
+          <td>12756</td>
+          <td>6792</td>
+          <td>142984</td>
+        </tr>
+        <tr>
+          <td>Density (g/cm³)</td>
+          <td>5.43</td>
+          <td>5.52</td>
+          <td>3.93</td>
+          <td>1.33</td>
+        </tr>
+        <tr>
+          <td>Gravity (m/s²)</td>
+          <td>3.7</td>
+          <td>9.8</td>
+          <td>3.7</td>
+          <td>24.8</td>
+        </tr>
+        <tr>
+          <td>Distance from Sun (10^6 km)</td>
+          <td>57.9</td>
+          <td>149.6</td>
+          <td>227.9</td>
+          <td>778.6</td>
+        </tr>
+        <tr>
+          <td>Length of Day (hours)</td>
+          <td>4222.6</td>
+          <td>24.0</td>
+          <td>24.7</td>
+          <td>9.9</td>
+        </tr>
+        <tr>
+          <td>Orbital Period (days)</td>
+          <td>88</td>
+          <td>365.2</td>
+          <td>687</td>
+          <td>4331</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>Data Source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" target="_blank">NASA Planetary Fact Sheet</a></p>
+  </footer>
 </body>
+</html>
